@@ -35,12 +35,13 @@ html, body{
 /* Header */
 .header {
     background-color: #81A36B;
-    padding: 23px;
+    padding: 23px 0;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
@@ -62,7 +63,7 @@ html, body{
 
 .amelia-flowers {
     background-color: #F5F5F5;
-    min-height: 790px;
+    padding-bottom: 120px;
 }
 
 .button {
@@ -119,11 +120,11 @@ html, body{
 /* about */
 .about {
     background-color: #F5F5F5;
-    min-height: 316px;
+    padding-bottom: 120px;
 }
 
 .about>div {
-    width: 540px;
+    width: 570px;
     text-align: center;
 }
 
@@ -131,15 +132,14 @@ html, body{
 
 .proposition {
     background-color: #81A36B;
-    padding: 78px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    padding: 78px 0;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
 .propos-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -150,14 +150,13 @@ html, body{
 /* how we are working */
 .working {
     background-color: #F5F5F5;
-    min-height: 800px;
+    padding: 120px 0;
 }
 
 .working>.container {
     display: flex;
     gap: 30px;
     align-items: center;
-    padding: 120px 0;
 }
 
 .flower-sec {
@@ -180,7 +179,7 @@ html, body{
 /* our works */
 .our-works {
     background-color: #F5F5F5;
-    min-height: 718px;
+    padding-bottom: 120px;
 }
 
 .our-w-cards {
@@ -190,12 +189,14 @@ html, body{
 
 .card {
     background-color: #81A36B;
-    padding: 15px;
+    padding: 15px 15px 40px 15px;
     border-radius: 6px;
     text-align: center;
-
+    flex: 1 1 30%;
 }
-
+.card>a{
+    display: block;
+}
 .card>a img {
     height: 402px;
     width: 100%;
@@ -204,7 +205,6 @@ html, body{
 }
 
 .card>a h3 {
-    margin-bottom: 40px;
     color: black;
 }
 
@@ -216,20 +216,21 @@ html, body{
     text-align: center;
 }
 
-.footer>.container>img {
+.footer>.container>a>img{
     margin-bottom: 25px;
 }
 
 .footer>.container>p {
     font-size: 16px;
 }
+.contacts>a{
+    display: block;
+    color: black;
+    margin-bottom: 15px;
+}
 
 .contacts h3 {
     margin-bottom: 20px;
-}
-
-.contacts p {
-    margin-bottom: 15px;
 }
 
 address {
