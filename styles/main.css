@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+/* general styles */
+body {
+    /* font-family: 'Architects Daughter', cursive;
+       font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    /* font-weight: 500; */
+}
+.subtitle {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 32px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.header{
+    background-color: #81A36B;
+    padding: 23px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+/* main */
+.title{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 62px;
+    margin-bottom: 65px;
+}
+.title + p{
+    line-height: 165%;
+}
+.main-container {
+    display: flex;
+    align-items:  center;
+    min-height: 670px
+}
+.title-text{
+    padding-right: 70px;
+}
+
+.flower{
+    height: 100%;
+}
