@@ -9,47 +9,236 @@ body {
     font-size: 18px;
     /* font-weight: 500; */
 }
+html, body{
+    scroll-behavior: smooth;
+}
 .subtitle {
     font-family: 'Architects Daughter', cursive;
     font-size: 32px;
+    margin-bottom: 50px;
+    text-align: center;
 }
-.container{
+
+.container {
     width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
+.txt {
+    line-height: 165%;
+}
+
+/* section{
+    margin-bottom: 120px;
+} */
 /* Header */
-.header{
+.header {
     background-color: #81A36B;
     padding: 23px;
 }
-.header-container{
+
+.header-container {
     display: flex;
     justify-content: space-between;
 }
-.menu{
+
+.menu {
     display: flex;
     gap: 30px;
 }
+.menu>li a{
+    color: black;
+}
+.menu>li :hover{
+    color: #F5F5F5;
+}
 /* main */
-.title{
+.title {
     font-family: 'Architects Daughter', cursive;
     font-size: 62px;
     margin-bottom: 65px;
 }
-.title + p{
-    line-height: 165%;
-}
-.main-container {
-    display: flex;
-    align-items:  center;
-    min-height: 670px
-}
-.title-text{
-    padding-right: 70px;
+
+.amelia-flowers {
+    background-color: #F5F5F5;
+    min-height: 790px;
 }
 
-.flower{
+.button {
+    display: flex;
+    gap: 23px;
+}
+
+.amelia-text>p {
+    margin-bottom: 20px;
+}
+
+.first-but {
+    padding: 20px;
+    background-color: #81A36B;
+    color: black;
+    border-radius: 6px;
+}
+.button :hover{
+    box-shadow: 0 0 20px 1px;
+
+}
+.second-but{
+    padding: 20px;
+    border: 1px solid #81A36B;
+    color: black;
+    border-radius: 6px;
+}
+
+
+
+
+.amelia-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.amelia-text {
+    flex: 1 1 45%;
+}
+
+.flower {
+    flex: 1 1 45%;
+    height: 670px;
+    overflow: hidden;
+}
+
+.flower>img {
+    width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+
+/* about */
+.about {
+    background-color: #F5F5F5;
+    min-height: 316px;
+}
+
+.about>div {
+    width: 540px;
+    text-align: center;
+}
+
+/* proposition */
+
+.proposition {
+    background-color: #81A36B;
+    padding: 78px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.propos-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.propos-container>div>img {
+    margin-bottom: 25px;
+}
+
+/* how we are working */
+.working {
+    background-color: #F5F5F5;
+    min-height: 800px;
+}
+
+.working>.container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.flower-sec {
+    flex: 1 1 45%;
+    height: 560px;
+    overflow: hidden;
+}
+
+.flower-sec>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.working-text {
+    flex: 1 1 45%;
+}
+
+
+/* our works */
+.our-works {
+    background-color: #F5F5F5;
+    min-height: 718px;
+}
+
+.our-w-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background-color: #81A36B;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.card>a img {
+    height: 402px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 23px;
+}
+
+.card>a h3 {
+    margin-bottom: 40px;
+    color: black;
+}
+
+
+/* footer */
+.footer {
+    background-color: #81A36B;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer>.container>img {
+    margin-bottom: 25px;
+}
+
+.footer>.container>p {
+    font-size: 16px;
+}
+
+.contacts h3 {
+    margin-bottom: 20px;
+}
+
+.contacts p {
+    margin-bottom: 15px;
+}
+
+address {
+    margin-bottom: 15px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    margin-bottom: 16px;
 }
