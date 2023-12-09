@@ -22,7 +22,6 @@ html, body{
 .container {
     width: 1140px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .txt {
@@ -183,6 +182,8 @@ html, body{
 }
 
 .our-w-cards {
+    padding: 0 15px;
+    margin: 0 -15px;
     display: flex;
     gap: 30px;
 }
